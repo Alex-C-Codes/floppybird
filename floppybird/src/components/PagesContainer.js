@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import Homepage from './pages/Homepage';
 import About from './pages/About';
 
+// import mainLogo from '../assets/images/spaghettisites.png';
+
 // Define the homepage component
 export default function PortfolioContainer() {
   const [activeTab, setActiveTab] = useState('');
@@ -54,6 +56,7 @@ export default function PortfolioContainer() {
       
       <footer className='footer'>
         <p>&copy; 2023 Spaghetti Sites LLC. All rights reserved.</p>
+        {/* <div><img src={mainLogo} alt='logo' style={{height:50, width:50}}/></div> */}
       </footer>
     </div>
   );
