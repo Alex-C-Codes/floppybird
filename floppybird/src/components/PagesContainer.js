@@ -40,10 +40,16 @@ export default function PortfolioContainer() {
         </div>
       </nav>
 
-      <div className="content">
-        {activeTab === '' && <Homepage />}
-        {activeTab === 'home' && <Homepage />}
-        {activeTab === 'about' && <About />}
+      <div className='content-wrapper'>
+        <div className='column-left'></div>
+
+        <div className="content">
+          {activeTab === '' && <Homepage />}
+          {activeTab === 'home' && <Homepage />}
+          {activeTab === 'about' && <About />}
+        </div>
+        
+        <div className='column-right'></div>
       </div>
       
       <footer className='footer'>

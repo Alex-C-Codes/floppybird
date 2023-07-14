@@ -73,6 +73,15 @@
   background-color: #14161b;
 }
 
+.content-wrapper {
+  display: flex;
+}
+
+.column-left,
+.column-right {
+  flex: 1;
+}
+
 .content {
   margin-top: 0px;
   text-align: center;
