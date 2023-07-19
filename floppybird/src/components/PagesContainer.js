@@ -22,7 +22,7 @@ export default function PortfolioContainer() {
               className={activeTab === 'home' ? 'active' : ''}
               onClick={() => handleTabChange('home')}
             >
-              floppybird
+              TownDefense
             </div>
           </h1>
           <ul className='nav-list'>
@@ -55,7 +55,7 @@ export default function PortfolioContainer() {
       </div>
       
       <footer className='footer'>
-        <p>&copy; 2023 Spaghetti Sites LLC. All rights reserved.</p>
+        <p>&copy; 2023 Alex C Studios. All rights reserved.</p>
         {/* <div><img src={mainLogo} alt='logo' style={{height:50, width:50}}/></div> */}
       </footer>
     </div>
